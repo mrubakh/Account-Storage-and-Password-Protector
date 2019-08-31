@@ -8,7 +8,7 @@ Since I began this project mostly from scratch (with some slight inspiration fro
 
 ## Instructions:
 
-After downloading the passwordprotector.pyw executable, the startup screen will popup. It will prompt you for a username and password as such. 
+After downloading the **passwordprotector.pyw** executable located in the **dist** folder, the startup screen will popup. It will prompt you for a username and password as such. 
 
 ![Screenshot (26)](https://user-images.githubusercontent.com/33610797/64069732-e59e8580-cc1d-11e9-8ad7-7eb0ceb2d9f4.png)
 
