@@ -1,6 +1,6 @@
 # Account-Storage
 
-## Intro
+## Introduction
 
 Nowadays, it's often very difficult to keep track of the vast number of passwords we're required to keep track of on a daily basis. With the growing popularity of the internet, many daily business, political, and social operations require the public to go to a site and create an account with a username and password. Unfortunately, our growing online presence has also given way for many malicious hackers to steal sensitive information from many of these sites. Hacking has gotten so severe that many web services now require certain complexities within a password, making it even MORE difficult for people to remember. To help aleviate this issue, I have created an Account Storage executable program that dynamically stores account information such as title, username, and password in encrypted JSON files which permanently store the account information so long as the JSON files are not tampered with. I have added in functionality to where **multiple users can store account information at the same time, which means that different users will not be able to see each other's account information.**
 
@@ -10,7 +10,7 @@ Since I began this project mostly from scratch (with some slight inspiration fro
 
 After downloading the passwordprotector.pyw executable, the startup screen will popup. It will prompt you for a username and password as such. 
 
-
+![Screenshot (26)](https://user-images.githubusercontent.com/33610797/64069732-e59e8580-cc1d-11e9-8ad7-7eb0ceb2d9f4.png)
 
 Unlike most online account registrations, you will **NOT** need to explicitly create a user account in a seperate screen. Simply:
 1. Type in a username that does not yet exist in the system
@@ -20,7 +20,7 @@ Unlike most online account registrations, you will **NOT** need to explicitly cr
  
 Once you've entered the correct credentials, you will be brought to the main screen:
 
-
+![Screenshot (27)](https://user-images.githubusercontent.com/33610797/64069733-f222de00-cc1d-11e9-8184-9233d0d74bfc.png)
 
 Here, you can add an Account "Title", an Account "Username" (which could be an email address, phone number, etc.), and a "Password". This will then be automatically displayed, and then stored in the JSON file corresponding to the username you selected. At any time, you can also delete any Account by clicking the red "X" on the righthand side.
 
